@@ -5,7 +5,7 @@
 To analyze the results of the MPG Regression model, we first need to define our null and alternative hypotheses:
 
 Null Hypothesis: m = 0 (slope is equal to zero)
-Alternative Hypothesis: m ??? 0 (slope is not equal to zero)
+Alternative Hypothesis: m ≠ 0 (slope is not equal to zero)
 
 In looking at the individual p-values of the model results, we can see that vehicle length, ground clearance and the intercept provide a non-random amount of variance to the MPG values in this dataset. In addition, the p-value of the entire model was 5.35e-11, well below even an extreme signifance level of 0.0001. Therefore, there is sufficent evidence to reject our null hypothesis, meaning the slope of the model is not zero.
 
